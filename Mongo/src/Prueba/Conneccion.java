@@ -32,7 +32,7 @@ public static void main(String[] args) {
 	//mongodb.createCollection("Libros");
 	
 	Document libro =  new Document();
-	libro.append("titulo","El hombre que dormia");
+	libro.append("titulo","El hombre no comia");
 	libro.append("autor"," Malba Disco ");
 	
 	mongodb.getCollection("Libros").insertOne(libro);
