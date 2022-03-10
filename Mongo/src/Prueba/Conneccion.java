@@ -36,7 +36,7 @@ public static void main(String[] args) {
 	libro.append("autor"," Malba Disco ");
 	
 	mongodb.getCollection("Libros").insertOne(libro);
-	
+	System.out.println("el mongo");
 }
 	
 }
